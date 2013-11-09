@@ -1,5 +1,5 @@
 
-package aritmetico;
+package app.clase2.aritmetico;
 
 public class OperacionesAritmeticas {
 
