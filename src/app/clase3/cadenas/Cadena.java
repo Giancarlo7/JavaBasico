@@ -3,7 +3,7 @@ package app.clase3.cadenas;
 
 public class Cadena {
         public static void main(String[] args) {
-            Cadena.buffer2();
+            Cadena.metodosString();
             
             
   }     
@@ -23,7 +23,7 @@ public class Cadena {
             buffer.append(" - ");       //appebnd sirve para agregar al primer texto
             buffer.append("Java"); 
             
-            buffer.insert(0, "Instituto");
+            buffer.insert(0, "Instituto"); // inserta texto depende de la cntidad que le asignes
             buffer.delete(buffer.indexOf("Java"),buffer.length());
             System.out.println(buffer);
             
