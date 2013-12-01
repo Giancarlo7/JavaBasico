@@ -15,8 +15,6 @@ public class Operaciones {
         num3 = Float.parseFloat(valor2);
     }
 
-    
-
     float suma() {
         num = num2 + num3;
         return num;
@@ -36,11 +34,5 @@ public class Operaciones {
     float division() {
         num = num2 / num3;
         return num;
-    }
-
-    double raiz() {
-        num1 = Math.sqrt(num);
-        return num1;
-
     }
 }

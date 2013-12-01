@@ -44,9 +44,6 @@ public Cliente() {
             System.out.println("Adios.");
         }
 
-    
-    
-
     static String realizar_operacion(String host, int puerto, String valor) {
         String respuesta = null;
 
